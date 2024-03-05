@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: rgb(126, 47, 126);
+        font-size: 50px;
+        font-weight: bold;
+        padding: auto;
+        margin: auto;
+      }
+      h2 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        border: 1px solid rgb(126, 47, 126);
+        line-height: 45px;
+        font-size: 18px;
+      }
+
+      h3 {
+        color: rgb(163, 41, 147);
+        font-family: bradley hand, cursive;
+        font-size: medium;
+        text-align: center;
+      }
+      body {
+        background: linear-gradient(
+          68.6deg,
+          rgb(252, 165, 241) 1.8%,
+          rgb(181, 255, 255) 100.5%
+        );
+        font-family: bradley hand, puzzeled, cursive, sans-serif;
+      }
+
+      em {
+       font-family: brush script mt, cursive;
+       font-size: 35px;
+       font-weight: lighter;
+      }
+
+      img {
+        display: block;
+        margin: auto;
+        padding: 3px;
+      }
+
+      p {
+        font-size: larger;
+      }
+
+      .learnmore {
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      .learnmore:hover {
+        text-decoration: underline;
+        color: aliceblue;
+        cursor: pointer;
+      }
+      button {
+        background: rgb(252, 165, 241) 55%;
+        border-top: rgb(252, 165, 241) 1.8%;
+        border-left: rgb(181, 255, 255) 100.5%;
+        border-radius: 6px;
+        box-shadow: rgba(37, 39, 89, 0.2) 0px 8px 8px 0;
+        cursor: pointer;
+        display: block;
+        font-size: 16px;
+        line-height: 22px;
+        margin: auto;
+        padding: 10px 25px;
+        transition: all 200ms ease;
+      }
+      button:hover {
+        background: rgb(29, 194, 194);
+        color: black;
+        opacity: 0.9;
+        cursor: pointer;
+        border: rgb(29, 194, 194)12.8%;
+      }
+
+      .benefits {
+        background-color: rgba(217, 105, 202, 0.151);
+        padding: 5px 5px;
+        margin: 5px 15px 5px;
+        border-radius: 4px;
+      }
+      .container {
+        max-width: 600px;
+        margin: auto;
+      }
+      .footer {
+        text-align: center;
+        font-size: small;
+      }
+
+      .footersentence {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-family: brush script mt;
+        font-weight: lighter;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Snack Aisle</h1>
+      <h3>
+        <span>Healthy Never Tasted</span> <em>So Good</em><span> Get Hooked on</span>
+        <em>Plain Yogurt</em>
+      </h3>
+      <h2>It's not so plain after all!</h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/069/530/original/acouplecooks.com.jpg?1677667129"
+      width="250" height="300" alt="https://www.acouplecooks.com/wp-content/uploads/2022/01/Yogurt-Parfait-015-735x919.jpg"/>
+
+      <div class="benefits">
+        <p>Health Benefits of Yogurt:</p>
+        <ul>
+          <li>It's rich in important nutrients that your body needs</li>
+          <li>It's high in protein</li>
+          <li>May benefit digestive health</li>
+          <li>It may strengthen your immune system</li>
+        </ul>
+      </div>
+      <a
+        href="https://www.healthline.com/nutrition/benefits-of-yogurt"
+        target="_blank"
+        class="learnmore"
+      >
+        Learn more here
+      </a>
+      <br />
+      <br />
+      <button class="buy-button">Buy Yogurt</button>
+      </div>
+      <hr/>
+      
+      <p class="footersentence">
+      Savor the Simplicity of Plain Yogurt
+      </p>
+      <p class="footer">
+        This page was built by
+        <a href="https://www.instagram.com/wendiemat/" target="_blank"> Wendy Mathabela. </a>
+      </p>
+      
+       <hr/>
+    </div>
+
+    <script>
+      function buy() {
+        <a href="https://www.instagram.com/wendiemat/" target="_blank"></a>
+      }
+
+      let buyButton = document.querySelector(".buy-button");
+      buyButton.addEventListener("click", buy);
+    </script>
+  </body>
+</html>
